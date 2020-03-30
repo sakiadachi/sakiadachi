@@ -1,0 +1,53 @@
+body{
+    margin: 0 auto;
+    height: auto;
+    background-color: #edd1ce;
+    font-family: Raleway, sans-serif;
+    color: #333333;
+    align-content: center;
+    letter-spacing: .075rem;
+    text-align: center;
+    line-height: 1.75;
+}
+
+
+p,
+li{
+    font-size: 16px;
+}
+
+
+h1{
+    font-family: "Tiempos", Georgia, serif;
+    font-size: 2em;
+}
+
+
+h2{
+    font-family: Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+
+h3{
+    font-family: Times, Times New Roman, serif;
+    font-weight: 500;
+    font-size: 1.2em;
+
+}
+
+
+a{
+    color: cadetblue;
+}
+
+
+a:hover{
+    color: #edd1ce;
+}
+
+
+a:visited{
+    color: grey;
+}

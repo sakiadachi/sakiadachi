@@ -1,0 +1,102 @@
+#title{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: #333333;
+}
+
+
+.blog-title{
+    text-align: center;
+}
+
+
+nav{
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+#nav,
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+#nav,
+li
+a {
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 15px;
+}
+
+
+/*---------------------------------*/
+nav a:link{
+    color: #333333;
+}
+
+
+nav a:visited{
+    color: #333333;
+}
+
+
+nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+/*---------------------------------*/
+button{
+    position: absolute;
+    left: 30px;
+    width: 120px;
+    height: 2em;
+    background-color: #fff;
+    font-size: 0.8em;
+    margin-left: -5px;
+    padding: .5em;
+    border: none;
+    color: 	#333333;
+}
+
+
+form{
+    display: block;
+    position: absolute;
+    color: #fff;
+    right: 30px;
+}
+
+
+form input[type=search] {
+    border: solid 3px #fff;
+    box-sizing: border-box;
+    font-size: 0.8em;
+    height: 2em;
+    margin-left: -5px;
+    outline: solid #fc0 0;
+    padding: .5em;
+    transition: all 2s ease-in;
+    width: 120px;
+    z-index: 1;
+}
+
+
+form input[type=search]:focus{
+    border: solid 3px #09f;
+    outline: solid #fc0 2000px;
+}
+
+
+::placeholder{
+    color: #333333;
+    font-family: Raleway, sans-serif;
+}

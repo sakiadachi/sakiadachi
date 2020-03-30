@@ -1,0 +1,32 @@
+.author-info{
+    text-align: left;
+    letter-spacing: .05rem;
+}
+
+
+.title-font{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.author-sns,
+.archive{
+    text-align: center;
+    letter-spacing: .05rem;
+}
+
+
+ul.sidebar{
+    display: block;
+    list-style: none;
+}
+
+
+.avater{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}

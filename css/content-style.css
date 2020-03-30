@@ -1,0 +1,241 @@
+@import url("../css/header.css");
+@import url("../css/cohesive-style.css");
+@import url("../css/sidebar.css");
+
+/*-----------content text rules--------------*/
+hr.style1{
+    border-style: 3px #646464;
+}
+
+
+p.bold{
+    font-weight: bold;
+}
+
+
+p.italic{
+    font-style: italic;
+    color: #646464;
+}
+
+
+p.underlined{
+    text-decoration: underline;
+}
+
+
+p.red{
+    color: red;
+}
+
+
+p.green{
+    color: green
+}
+
+
+blockquote{
+    position: relative;
+    padding: 30px 15px 8px 15px;
+    box-sizing: border-box;
+    font-style: italic;
+    background: #efefef;
+    color: #555;
+}
+
+
+blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    content: "“";
+    font-family: sans-serif;
+    color: #cfcfcf;
+    font-size: 90px;
+    line-height: 1;
+}
+
+
+blockquote p{
+    padding: 0;
+    margin: 10px 0;
+    line-height: 1.7;
+}
+
+
+blockquote cite{
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
+
+
+figcaption{
+    text-align: right;
+    font-size: 0.8em;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+
+/*--------------------------------*/
+@media (max-width: 700px){
+     .container{
+        display: grid;
+        margin: 10px;
+        grid-template-rows: 200px 1fr 600px 300px;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "hd"
+        "main"
+        "side"
+        "ft";
+    }
+
+
+    .header{
+        grid-area: hd;
+        font-family: Raleway, sans-serif;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+
+    .sidebar{
+        grid-area: side;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+
+    .footer{
+        grid-area: ft;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+
+    .main{
+        grid-area: main;
+        display: block;
+        padding: 10px;
+        background-color: #fff;
+    }
+
+
+}
+/*--------------------------------*/
+@media(min-width: 701px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 200px 1fr 200px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "main main main main main main side side"
+        "ft ft ft ft ft ft ft ft";
+    }
+
+
+    .header{
+        grid-area: hd;
+        font-family: Raleway, sans-serif;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+
+    .sidebar{
+        grid-area: side;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        margin-right: 30px;
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+
+
+    .footer{
+        grid-area: ft;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+
+    .main{
+        grid-area: main;
+        display: block;
+        margin-left: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        background-color: #fff;
+    }
+
+
+}
+
+
+/*-----coherent rules for the different media queries--------*/
+
+
+.card{
+    text-align: left;
+    line-height: 0.75em;
+    letter-spacing: 0.1px;
+    margin-bottom: 30px;
+}
+
+
+.content{
+    display: block;
+    text-align: left;
+    letter-spacing: 0.1px;
+}
+
+
+.sns{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+ul.list{
+    display: block;
+    list-style: disc;
+    text-align: left;
+}
+
+
+img.icon{
+    width: 30px;
+    height: auto;
+    padding-right: 30px;
+}
+
+
+.choose-post{
+    text-align: center;
+}
+
+
+a.button1{
+    padding-right: 15px;
+    font-weight: 600;
+}
+
+
+.image-01{
+    width: 90%;
+    height: auto;
+}

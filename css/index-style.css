@@ -1,0 +1,155 @@
+@import url("../css/header.css");
+@import url("../css/cohesive-style.css");
+
+
+/*--------------------------------*/
+@media (max-width: 700px){
+     .container{
+        display: grid;
+        margin: 10px;
+        grid-template-rows: 200px 1fr 300px;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "hd"
+        "main"
+        "ft";
+    }
+
+
+    .main{
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        background-color: #fff;
+    }
+
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid grey;
+        width: auto;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+
+
+}
+
+
+/*-----coherent rules-----*/
+.header{
+    grid-area: hd;
+    padding-top: 30px;
+}
+
+
+.footer{
+    grid-area: ft;
+    padding-top: 30px;
+}
+
+
+/*--------------------------------*/
+
+@media(min-width: 701px) and (max-width: 950px){
+    .container{
+        display: grid;
+        margin: 30px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 1fr 200px;
+        grid-template-areas: 
+        "hd hd hd hd"
+        "main main main main "
+        "ft ft ft ft";
+    }
+
+
+    .main{
+        grid-area: main;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 15px;
+        background-color: #fff;
+    }
+
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid grey;
+        width: 45%;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+
+
+}
+
+
+.capimg{
+    width: 90%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+.card{
+    text-align: left;
+    line-height: auto;
+    letter-spacing: 0.1px;
+    border-color: 2px solid grey;
+}
+
+
+/*--------------------------------*/
+@media(min-width: 951px){
+    .container{
+        display: grid;
+        margin: 30px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 1fr 200px;
+        grid-template-areas: 
+        "hd hd hd hd"
+        "main main main main "
+        "ft ft ft ft";
+    }
+
+
+    .main{
+        grid-area: main;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 15px;
+        background-color: #fff;
+    }
+
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid grey;
+        width: 27%;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+
+
+}
