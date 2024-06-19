@@ -1,16 +1,18 @@
-## Hi there 👋
+## Hi there👋
+- 🔭 I’m currently working on a project using Sveltekit.
+- 🌱 I’m currently studying for AP(応用情報技術者試験).
+- 📫 How to reach me: [✉️](mailto:hello@sakiadachi.com)
+- ⚡ Fun fact: I love catfish🐟 
 
-<!--
-**sakiadachi/sakiadachi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Experience
+2020 - now
+  Freelance front-end developer
+    HTML, CSS, Javascipt, Typescript
+    Flutter
+    Vue.js, nuxt.js, Next.js
+    Electron
+    
+## 学歴
+2014 - 2018
+  University of Brighton
+  Bachelor of Arts 3D Design & Craft
