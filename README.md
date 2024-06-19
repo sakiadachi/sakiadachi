@@ -5,5 +5,5 @@ Front-end developer based in Tokyo 💻
 - 🌱 I’m currently studying for AP(応用情報技術者試験).
 - 📫 How to reach me: [email](mailto:hello@sakiadachi.com)
 - ⚡ Fun fact: I love catfish🐟
-- 🏠 Home page: https://sakiadachi.com/
+- 🏠 Portfolio: https://sakiadachi.com/
 - 🗒️ Blog: https://zenn.dev/sakiadachi
