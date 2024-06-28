@@ -41,14 +41,14 @@ This is a web app to practice pronunciation. With this application, you can uplo
 - Web Server
   - Caddy
 
-### Clipboard App [[website](https://joyful-faloodeh-f040f9.netlify.app/)] [[blog](https://sakiadachi.com/blog/clipboard-app)]
+### Clipboard App [[website](https://joyful-faloodeh-f040f9.netlify.app/)]
 
-This is a simple app for clipboard management. In the clipboard list, the order of items can be changed.
+This is a simple app for clipboard management. In the clipboard list, the order of items can be changed. See more in my [blog](https://sakiadachi.com/blog/clipboard-app).
 
-- Front-end [[repository]](https://github.com/sakiadachi/emoji-clipboard-app)
+- Front-end [[repository](https://github.com/sakiadachi/emoji-clipboard-app)]
   - TypeScript, JavaScript, HTML, CSS
   - Next.js, Tailwind CSS
-- Backend [[repository]](https://github.com/sakiadachi/clipboard_project)
+- Backend [[repository](https://github.com/sakiadachi/clipboard_project)]
   - Python
   - Django, Django Rest Framework
   - Gunicorn
@@ -58,7 +58,7 @@ This is a simple app for clipboard management. In the clipboard list, the order 
   - Front-end: Netlify
   - Backend: fly.io
 
-### Resizable Panes [[website](https://resizable-elements.netlify.app)]
+### Resizable Panes [[website](https://resizable-elements.netlify.app)] [[repository](https://github.com/sakiadachi/resizable-elements)]
 
 Slack like UI demo that a user can resize panes horizontally.
 For vertical resizing, see my [blog](https://sakiadachi.com/blog/resizable-element).
@@ -67,7 +67,7 @@ For vertical resizing, see my [blog](https://sakiadachi.com/blog/resizable-eleme
   - TypeScript, HTML, CSS
   - Next.js, Material UI
 
-### Portfolio website [[website](https://sakiadachi.com)]
+### Portfolio website [[website](https://sakiadachi.com)] [[repository](https://github.com/sakiadachi/portfolio-better)]
 
 Portfolio website showing my works and blog posts.
 
